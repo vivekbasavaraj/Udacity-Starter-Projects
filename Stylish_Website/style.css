@@ -1,0 +1,50 @@
+.title{
+  background-color: rgba(18, 221, 247, 0.36);
+  background-image: url(images/Cricket_stad_1.jpg);
+  background-size: cover;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: x-large;
+}
+.Players{
+  display: flex;
+  max-height: 250px;
+  padding: 30px;
+  background-color: rgb(255, 255, 204);
+
+}
+.text{
+  padding-left: 15px;
+    overflow: auto;
+
+}
+.batsmen, .bowlers{
+  border: 5px outset ;
+   border-radius: 12px;
+}
+
+p  {
+  text-align: justify;
+   text-indent: 25px;
+   font-style: italic;
+   font-family: cursive;
+}
+h3{
+  padding-left: 20px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  font-style: oblique;
+  text-decoration: underline;
+  color:#0066ff;
+}
+body{
+  background-color: #ffffff;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
